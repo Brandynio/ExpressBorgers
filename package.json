@@ -1,0 +1,23 @@
+{
+  "name": "expressborgers",
+  "version": "1.0.0",
+  "description": "borgers go fas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandynio/ExpressBorgers.git"
+  },
+  "author": "B & C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandynio/ExpressBorgers/issues"
+  },
+  "homepage": "https://github.com/Brandynio/ExpressBorgers#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
