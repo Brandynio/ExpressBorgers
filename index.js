@@ -10,7 +10,13 @@ app.use(express.static(path.join(__dirname+'/public')));
 
 app.get('/', function(req, res){
   res.render('index', {
-    "title":"Cameron's p cute"
+    "title":"[B]urgers"
+  });
+});
+
+app.get('/directions', function(req, res){
+  res.render('dir', {
+    "title":"Directions"
   });
 });
 
