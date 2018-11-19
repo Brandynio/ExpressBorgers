@@ -1,6 +1,7 @@
 var express = require("express");
 var pug = require('pug');
 var path = require('path');
+//var jsonStuff = require('./importantFiles/menuItems.json');
 
 var app = express();
 
@@ -17,6 +18,24 @@ app.get('/', function(req, res){
 app.get('/directions', function(req, res){
   res.render('dir', {
     "title":"Directions"
+  });
+});
+
+app.get('/burgers', function(req, res){
+  res.render('index', {
+    "title":"Welcome to the burgers page."
+  });
+});
+
+app.get('/sides', function(req, res){
+  res.render('index', {
+    "title":"Welcome to the sides page."
+  });
+});
+
+app.get('/desserts', function(req, res){
+  res.render('index', {
+    "title":"Welcome to the desserts page."
   });
 });
 
