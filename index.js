@@ -41,16 +41,18 @@ app.get('/burgers', function(req, res){
 });
 
 app.get('/sides', function(req, res){
-  res.render('index', {
+  res.render('sides', {
     "title":"Welcome to the sides page.",
-    "config": config
+    "config": config,
+    "jsonStuff": jsonStuff
   });
 });
 
 app.get('/desserts', function(req, res){
-  res.render('index', {
+  res.render('desserts', {
     "title":"Welcome to the desserts page.",
-    "config": config
+    "config": config,
+    "jsonStuff": jsonStuff
   });
 });
 

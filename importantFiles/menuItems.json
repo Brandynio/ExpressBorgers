@@ -26,40 +26,58 @@
             "burgerDesc":"One all beef patty topped with cheese, bacon, lettuce, pickles, onions, tomatoes, and a fresh onion ring between two texas toast buns."
         }
     ],
-    "sideImages": [
+    "sides": [
         {
-            "sideImg1": "chiliCheeseFries.png",
-            "sideName1":"Chili Cheese Fries",
-            "sideDesc1":""
+            "sideImg": "chiliCheeseFries.png",
+            "sideName":"Chili Cheese Fries",
+            "sideDesc":"Our crispy fries covered in fresh made chili and melted cheese."
         },
         {
-            "sideImg2": "chiliCheeseTots.png"
+            "sideImg": "chiliCheeseTots.png",
+            "sideName":"Chili Cheese Fries",
+            "sideDesc":"Our crispy tots covered in fresh made chili and melted cheese."
         },
         {
-            "sideImg3": "fries.png"
+            "sideImg": "fries.png",
+            "sideName":"Fries",
+            "sideDesc":"Fresh crispy fries cut from whole russet potatoes."
         },
         {
-            "sideImg4": "mozzarellaSticks.png"
+            "sideImg": "mozzarellaSticks.png",
+            "sideName":"Mozzarella Sticks",
+            "sideDesc":"Creamy mozzarella cheese breaded and served with maranara sauce."
         },
         {
-            "sideImg5": "tots.png"
+            "sideImg": "tots.png",
+            "sideName":"Tots",
+            "sideDesc":"Small fried potato bites."
         }
     ],
-    "dessertImages": [
+    "desserts": [
         {
-            "dessertImg1": "chocolateShake.png"
+            "dessertImg": "chocolateShake.png",
+            "dessertName": "Chocolate Shake",
+            "dessertDesc": "A thick and creamy chocolate flavored milkshake."
         },
         {
-            "dessertImg2": "hotFudgeSundae.png"
+            "dessertImg": "hotFudgeSundae.png",
+            "dessertName": "Hot Fudge Sundae",
+            "dessertDesc": "Creamy vanilla ice cream with hot fudge, whipped topping, and a maraschino cherry.."
         },
         {
-            "dessertImg3": "oreoShake.png"
+            "dessertImg": "oreoShake.png",
+            "dessertName": "Oreo Chocolate Shake",
+            "dessertDesc": "Ice Cream mixed with Oreo Cookie pieces and chocolate syrup."
         },
         {
-            "dessertImg4": "oreoPeanutButterShake.png"
+            "dessertImg": "oreoPeanutButterShake.png",
+            "dessertName": "Oreo Peanut Butter Shake",
+            "dessertDesc": "Ice Cream mixed with Oreo Cookie pieces, peanut butter, and chocolate syrup."
         },
         {
-            "dessertImg5": "vanillaShake.png"
+            "dessertImg": "vanillaShake.png",
+            "dessertName": "Vanilla Shake",
+            "dessertDesc": "A thick and creamy vanilla flavored milkshake."
         }
     ]
 }

@@ -2,5 +2,5 @@ extends layout
 
 block content
 
-    each image in jsonStuff.dessertImages
-        img(src=image[1])
+    each dessert in jsonStuff.desserts
+        img(src=dessert.dessertImg)
