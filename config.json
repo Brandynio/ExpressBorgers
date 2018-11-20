@@ -3,5 +3,7 @@
         ["Home", "/"],
         ["Direction", "directions"],
         ["Menu", "menu"]
+        ["Direction", "/directions"],
+        ["Menu", "/menu"]
     ]
 }
