@@ -1,3 +1,6 @@
 extends layout
 
 block content
+
+    each image in jsonStuff.sideImages
+        img(src=image[1])
