@@ -3,3 +3,5 @@ extends layout
 block content
   each burger in jsonStuff.burgers
     img(src=burger.burgerImg)
+    <div>#{burger.burgerName}</div>
+    <div>#{burger.burgerDesc}</div>
