@@ -2,7 +2,7 @@ var express = require("express");
 var pug = require('pug');
 var path = require('path');
 var config = require('./config.json');
-//var jsonStuff = require('./importantFiles/menuItems.json');
+var jsonStuff = require('./importantFiles/menuItems.json');
 
 var app = express();
 app.use(express.static('images'));
@@ -33,9 +33,10 @@ app.get('/menu', function(req, res){
 });
 
 app.get('/burgers', function(req, res){
-  res.render('index', {
+  res.render('burgers', {
     "title":"Welcome to the burgers page.",
-    "config": config
+    "config": config,
+    "jsonStuff": jsonStuff
   });
 });
 

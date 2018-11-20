@@ -1,0 +1,51 @@
+{"burgerImages":[
+    ["burgerImg1", "cheeseburger.png"],
+    [
+        "burgerImg2", "doubleCheeseburger.png"
+    ],
+    [
+        "burgerImg3", "doubleStackBurger.png"
+    ],
+    [
+        "burgerImg4","quarterPoundDoubleStack.png"
+    ],
+    [
+        "burgerImg5", "baconToaster.png"
+    ]
+    ],
+
+ "sideImages":[
+    {
+        "sideImg1":"../images/Burgers/chiliCheeseFries.png"
+    },
+    {
+        "sideImg2":"../images/Burgers/chiliCheeseTots.png"
+    },
+    {
+        "sideImg3":"../images/Burgers/fries.png"
+    },
+    {
+        "sideImg4":"../images/Burgers/mozzarellaSticks.png"
+    },
+    {
+        "sideImg5":"../images/Burgers/tots.png"
+    }
+    ],
+
+"dessertImages":[
+    {
+        "dessertImg1":"../images/Burgers/chocolateShake.png"
+    },
+    {
+        "dessertImg2":"../images/Burgers/hotFudgeSundae.png"
+    },
+    {
+        "dessertImg3":"../images/Burgers/oreoShake.png"
+    },
+    {
+        "dessertImg4":"../images/Burgers/oreoPeanutButterShake.png"
+    },
+    {
+        "dessertImg5":"../images/Burgers/vanillaShake.png"
+    }
+]}
