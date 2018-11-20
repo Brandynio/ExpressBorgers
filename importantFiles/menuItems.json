@@ -1,30 +1,30 @@
 {
     "burgers": [
-        [
-            ["burgerImg1", "cheeseburger.png"],
-            ["burgerName1", "Cheeseburger"],
-            ["burgerDesc1", "Basic cheeseburger with lettuce, onions, lettuce, tomatoes, and pickles."]
-        ],
-        [
-            ["burgerImg2", "doubleCheeseburger.png"],
-            ["burgerName2", "Double Cheeseburger"],
-            ["burgerDesc2", "Basic cheeseburger with two all beef patties, lettuce, onions, lettuce, tomatoes, and pickles."]
-        ],
-        [
-            ["burgerImg3",  "doubleStackBurger.png"],
-            ["burgerName3", "Double Stack Burger"],
-            ["burgerDesc3", "Two quarter pound all beef patties layered with melty cheese, mayo, mustard, pickles, and onions."]
-        ],
-        [
-            ["burgerImg4",  "quarterPoundDoubleStack.png"],
-            ["burgerName4", "Quarter Pound Double Stack"],
-            ["burgerDesc4","Two 1/8 pound all beef patties layered with melty cheese, mayo, mustard, pickles, and onions."]
-        ],
-        [
-            ["burgerImg5", "baconToaster.png"],
-            ["burgerName5", "Bacon Toaster Burger"],
-            ["burgerDesc5", "One all beef patty topped with cheese, bacon, lettuce, pickles, onions, tomatoes, and a fresh onion ring between two texas toast buns."]
-        ]
+        {
+            "burgerImg": "cheeseburger.png",
+            "burgerName":"Cheeseburger",
+            "burgerDesc":"Basic cheeseburger with lettuce, onions, lettuce, tomatoes, and pickles."
+        },
+        {
+            "burgerImg": "doubleCheeseburger.png",
+            "burgerName":"Double Cheeseburger",
+            "burgerDesc":"Basic cheeseburger with two all beef patties, lettuce, onions, lettuce, tomatoes, and pickles."
+        },
+        {
+            "burgerImg": "doubleStackBurger.png",
+            "burgerName":"Double Stack Burger",
+            "burgerDesc":"Two quarter pound all beef patties layered with melty cheese, mayo, mustard, pickles, and onions."
+        },
+        {
+            "burgerImg": "quarterPoundDoubleStack.png",
+            "burgerName":"Quarter Pound Double Stack",
+            "burgerDesc":"Two 1/8 pound all beef patties layered with melty cheese, mayo, mustard, pickles, and onions."
+        },
+        {
+            "burgerImg": "baconToaster.png",
+            "burgerName":"Bacon Toaster Burger",
+            "burgerDesc":"One all beef patty topped with cheese, bacon, lettuce, pickles, onions, tomatoes, and a fresh onion ring between two texas toast buns."
+        }
     ],
     "sideImages": [
         {
