@@ -3,6 +3,12 @@ html
   head
   body
     header
-      
+      img(src="burgers.png" class="logo")
+      nav
+        ul
+          each item in config.navbar
+            a(href=item[1])
+              div(class='nav_item')
+                li(id=item[1]) #{item[0]}
     h1 #{title}
     block content

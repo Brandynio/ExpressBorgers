@@ -1,0 +1,7 @@
+{
+    "navbar": [
+        ["Home", "/"],
+        ["Direction", "directions"],
+        ["Menu", "menu"]
+    ]
+}
