@@ -1,0 +1,81 @@
+body {
+    background-color: #999;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.body_div {
+    background-color: #0882aD;
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_item {
+    flex: 1;
+    padding: 20px;
+    background-color: #b00;
+    color: #999;
+    font-size: 1.5em;
+    font-family: 'Century Gothic';
+    border: solid 2px #000;
+    margin: 0px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    background-color: #d00;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #639;
+    width: 40%;
+    margin: auto;
+    font-size: 2em;
+    border: solid 2px #000;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    color: #f89;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #85b;
+    transition: .4s;
+}
+
+.foodImg {
+    height: 350px;
+    width: 350px;
+}
+
+.foodName {
+    font-size: 2em;
+}
+
+.foodDesc {
+    margin-bottom: 40px;
+}

@@ -1,14 +1,16 @@
 doctype html
 html
   head
+    link(href='style.css' rel='stylesheet')
   body
     header
-      img(src="burgers.png" class="logo")
+      img(src="images/burgers.png" class="logo")
       nav
         ul
           each item in config.navbar
             a(href=item[1])
               div(class='nav_item')
                 li(id=item[1]) #{item[0]}
-    h1 #{title}
-    block content
+    div(class="body_div")
+      h1 #{title}
+      block content

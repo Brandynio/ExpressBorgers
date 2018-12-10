@@ -3,6 +3,6 @@ extends layout
 block content
 
     each dessert in jsonStuff.desserts
-        img(src=dessert.dessertImg)
-        <div>#{dessert.dessertName}</div>
-        <div>#{dessert.dessertDesc}</div>
+        <div class="foodName">#{dessert.dessertName}</div>
+        img(src=dessert.dessertImg class="foodImg")
+        <div class="foodDesc">#{dessert.dessertDesc}</div>

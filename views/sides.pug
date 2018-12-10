@@ -3,6 +3,6 @@ extends layout
 block content
 
     each side in jsonStuff.sides
-        img(src=side.sideImg)
-        <div>#{side.sideName}</div>
-        <div>#{side.sideDesc}</div>
+        <div class="foodName">#{side.sideName}</div>
+        img(src=side.sideImg class="foodImg")
+        <div class="foodDesc">#{side.sideDesc}</div>

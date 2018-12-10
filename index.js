@@ -5,7 +5,6 @@ var config = require('./config.json');
 var jsonStuff = require('./importantFiles/menuItems.json');
 
 var app = express();
-app.use(express.static('images'));
 
 app.set('view engine', 'pug');
 app.set('views', __dirname+'/views');
@@ -34,7 +33,7 @@ app.get('/menu', function(req, res){
 
 app.get('/burgers', function(req, res){
   res.render('burgers', {
-    "title":"Welcome to the burgers page.",
+    "title":"Welcome to the burgers.",
     "config": config,
     "jsonStuff": jsonStuff
   });
